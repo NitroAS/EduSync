@@ -1,0 +1,8 @@
+{
+  "devDependencies": {
+    "typescript": "^4.6.3"
+  },
+  "dependencies": {
+    "node-fetch": "^3.2.3"
+  }
+}

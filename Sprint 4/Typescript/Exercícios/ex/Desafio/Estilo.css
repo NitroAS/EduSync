@@ -1,0 +1,308 @@
+/* Fontes necessarias para utilizar na pág */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap%27');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+/* Reset css */
+*{
+    margin: 0%;
+    padding: 0%;
+    font-size: 15px;
+    font-family: 'Inter';
+}
+/* Cores padrões da pág */
+:root{ 
+    --cor1: #F6511D;
+    --cor2: #6C757D;
+    --cor3: #8458FF;
+    --cor4: #FFC107;
+    --cor5: #DC3545;
+    --cor6: #152536;
+}
+/* Proporsão da pág */
+main{
+    max-width: 1500px;
+    max-height: 1770px;
+}
+/* h1/logo servem para ajustar o h1 da pág  */
+h1{
+    font-size: 22px;
+    font-weight: bold;
+    padding: 15px 15px;
+    color: #000000;
+}
+.logo{
+    padding: 5px;
+}
+/* aumentando tamanho/cor das palavras destaques da pág */
+.textoDoComeco1 , .textoDoComeco2 , .textoDoComeco3 , .textoDoComeco4{
+    font-size: 20px;
+    line-height: 29px;
+    font-weight: bold;
+    color: #152536;
+}
+/* arrumando a 'Descrição' individualmente */
+.textoDoComeco2{
+    display: flex;
+    place-self: flex-start;
+    margin-top: -44px;;;
+}
+/* proporsões das 3 bordas para digitar*/
+.dataProporsao , .pacoteProporsao , .descriçãoProporsao{
+    border: 1px solid #CED4DA;
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-weight: 100;
+}
+/* ajuste da borda da data para fica alinhanda com a borda do Pacote */
+.dataProporsao {
+    margin-top: 18px;
+    width: 205px;;
+    height: 29px;
+    padding-left: 10px;
+    font-size: 14px;
+}
+/* ajuste da borda do  Pacote para fica alinhando com a borda da Data */
+.pacoteProporsao{
+    width: 455px;;
+    height: 30px;
+    padding: 0px 0px 0px 20px;
+    margin-top: 15px;
+}
+/* aumentando o tamanho da borda Descrição para fica do tamanho certo quando fica do lado das outras bordas */
+.descriçãoProporsao{
+    width: 400px;
+    height: 134px;;
+    padding: 16px 0px 0px 20px;
+    resize: none;
+    margin-top: 11px;
+}
+/* essa parte server principalmente para ajustar a parte do Pacote */
+.comecoPt1{
+    display: flex;
+    margin-top: 20px;
+    margin: 40px;
+    display:  flex;
+    flex-direction: column;
+}
+/* essa parte server para fica alinhando com a parte de do pacote em cima */
+.comecoPt2{
+    margin-top: -22px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 499px;
+}
+/* serve para terminar da alinhar a porte do começo , com isso junta a Pt1 e a Pt2 e arrumar uns ajustes */
+.comecoMovimento{
+    float: left;
+    display: flex;
+    flex-direction: column;
+}
+/* server para centralizar  tudo no meio  */
+.Centralizacao{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 67px;
+    max-width: 100%;
+}
+/* deixei em Column e dei um espaçmento do texto Data por input */
+.dataAlinhamento{
+    display: flex;
+    flex-direction: column;
+    width: 172px;
+    margin-top: -3px;
+}
+/* deixei em Column e dei um espaçmento do texto Descrição por input */
+.descricaoAlinhamento{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    margin-top: -27px;
+}
+/* deixei o Ativo e o Inativo um do lado do outro e em columa para fica direitinho e dei um espaçamento */
+.opcoes , .opcoes2{
+    display: flex;
+    flex-direction: column;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 10px;
+}
+/* dei um padding para o Ativo e Inativo da um espaço do checkbox, coloquei a cor e deixei mais fino o texto dos dois  */
+.ativo , .inativo{
+    padding-left: 8px;
+    font-weight: 200;
+    color: #152536;
+}
+/* dei um margin-top para descer as opções com o texto delas e usei o width para diminuir o espaço que estava grande e com isso ficou mais alinhado com a parte de cima */
+.movimentoDasOpcoes{
+    margin-top: 10px;
+    width: 220px;
+}
+/*  arrumei a cor,background, font, coloquei q quando desse um click trocasse o curso e outras coisas no botão  */
+.botao{
+    width: 110px;
+    height: 40px;
+    background-color: var(--cor3);
+    color: white;
+    border-radius: 4px;
+    font-size: 16px;
+    border: 1px;
+    margin-top: 26px;
+    cursor: pointer;
+}
+/* coloquei o hover para trocar a cor quando passe o mouse por cima e o botão "Começar"Recomeçar */
+.botao:hover , .botaoRecomeça:hover{
+    background-color: var(--cor2);
+    color: white;
+}
+/* fiz uma div para colocar o botão no meio e da um espaçamento para baixo */
+.cadastrarModificacoes{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 40px
+}
+/* com isso aqui fiz o movimento todo do meu footer, coloquei todos os items no centro para depois manipular manualmente, coloquei a cor no footer e com margin-top eu descir meu footer */
+.rodape{ 
+    background-color: #F6511D;
+    height: 200px;
+    margin-top: 77px;
+    display: flex;
+    color: aliceblue;
+    justify-content: center;
+}
+/*  primeira parte do footer q eu ajustei o SnycTur , aumentei a grossura, coloquei ele por canto e outras coisas*/
+.fundo{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    margin-right: 40px;
+    margin-top: -64px;
+}
+/* linha do meio do footer q fiz e depois usei o margin-top para descer e fica no meio do footer */
+.linha{
+    border: 1px solid #FFFFFF;
+    height: 170px;
+    margin-top: 20px;
+}
+/* arrumei os texto com column e usei o flex-end para ir por end e depois usei margin-left pra por canto e fica certinho */
+.pFooter{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-left: 40px;
+    font-family: 'Roboto';
+    color: #FFFCFC;
+}
+
+/* TS */
+
+/*  Tamanho das bordas dos Produtos*/
+.cards{
+    border: 1px solid #e6dee2;
+    box-sizing: border-box;
+    border-radius: 4px;
+    height: 268px;
+    margin-top: 40px;
+    margin-left: 110px;
+    width: 1100px;
+}
+/* Proporsões, Espaçamento e Alinhamento da parte "Nome" */
+#pacotePacote{
+    font-size: 24px;
+    line-height: 29px;
+    font-family: 'Inter';
+    display: flex;
+    width: 132px;
+    margin-top: 20px;;
+    margin-left: 25px;
+    color: #152536;
+    justify-content: center;
+    
+}
+/* Proporsões, Espaçamento e Alinhamento da parte "Descrição"  */
+.descricaoDoPacote{
+    display: flex;
+    justify-content: space-evenly;
+    width: 126px;;
+    margin-top: 17px;
+    margin-left: 25px; 
+    color: #68717A;
+    font-family: 'Inter'
+}
+/* Proporsões, Espaçamento e Alinhamento da parte "Data"*/
+.pacoteData{
+    display: flex;
+    justify-content: space-evenly;
+    width:  125px;
+    margin-left: 46px;
+    text-align: center;
+    display: inline;
+    color: #000000;
+    font-family: 'Inter';
+    font-weight: 400;
+}
+/* Alinhamento e espaçamento  dos "2 Botões" do Produtos */
+.editarExcluir{
+    display: flex;
+    justify-content: space-evenly;
+    width: 226px;
+    margin-top: 40px;
+    cursor: pointer;
+    margin-left: 25px;
+}
+/* Trabalhando com as Proporsões desejadas de cada botão */
+.editar , .cardExcluir{
+    width: 85px;
+    height:39px;
+    color: #FFFFFF;
+    cursor: pointer;
+    border: 1px;
+    font-family: 'Inter';
+    border-radius: 4px;
+}
+/* Cor desejada do botão "Editar" */
+.editar{
+    background: #FFC107;
+}
+/* Cor desejada do botão "Excluir" */
+.cardExcluir{
+    background: #DC3545;
+}
+/* Botões de quando for Editar exibir o botão "Editar" e após a edição volta por botão "Comecar" recomeçando o botão antigo , "PROPORSÕES DESEJADAS" */
+.botaoEditar, .botaoRecomeça {
+    cursor: pointer;
+    background: #FFC107;
+    border-radius: 4px;
+    border: 1px;
+    width: 110px;
+    height: 40px;
+}
+/* Cor do botão "Começar"/Recomeçar */
+.botaoRecomeça{
+    background-color: var(--cor3);
+    color: white;
+    font-size: 16px;
+}
+/* Cor da palavra escrito em cada botão sendo trocado de branco pra gray */
+.cardExcluir:hover ,.botaoEditar:hover,.editar:hover{
+    color: var(--cor2);
+}
+/* cor da palavra escrito do botão "Editar" o botão q server  para quando for editar algo clicar no final pra confirmar a alteração */
+.botaoEditar{
+    color: white;
+}
+/* Cor do botão "Começar"/Recomeçar para fica identico  */
+.botaoRecomeça:hover {
+    background-color: var(--cor2);
+    color: white;
+    font-size: 16px;
+} 
+
+
+
+

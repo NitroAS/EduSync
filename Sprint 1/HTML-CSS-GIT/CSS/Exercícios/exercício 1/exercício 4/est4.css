@@ -1,0 +1,129 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Content&family=Courier+Prime&family=Kranky&family=Padauk&family=Plaster&family=Rokkitt:wght@100&family=Rosarivo&family=Rouge+Script&family=Saira:wght@100&display=swap');
+
+/* font-family: 'Content', cursive;
+font-family: 'Courier Prime', monospace;
+font-family: 'Kranky', cursive;
+font-family: 'Padauk', sans-serif;
+font-family: 'Plaster', cursive;
+font-family: 'Rokkitt', serif;
+font-family: 'Rosarivo', serif;
+font-family: 'Rouge Script', cursive;
+font-family: 'Saira', sans-serif;
+font-family: 'sem sefica'= teclado normal;
+font-family: 'seficada'= faltou baixar; 
+font-family: 'fantasia'= faltou baixar; */
+
+
+
+body{
+    
+width: 1200px;
+}
+
+.img{ 
+    height: 30.0rem;
+    width: 62.0rem;
+    margin-left: 9.5rem;
+}
+
+.p{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15.6px;
+    margin-left: 9.4rem;
+}
+
+.FS{
+    
+    font-size: 36PX;
+    margin-left: 9.3rem;
+}
+
+.FR{
+    font-family: 'Rokkitt', serif;
+    font-size: 36px;
+    color: #EB2020;
+    margin-left: 9.3rem;
+}
+
+.FC{
+    font-family: 'Courier Prime', monospace;
+    font-size: 36px;
+    color: #730ac6;
+    margin-left: 9.3rem;
+}
+
+.FR2{
+
+    font-family: 'Rosarivo', serif;
+    font-size: 36px;
+    color: #0e8d58;
+    margin-left: 9.3rem;
+}
+
+
+
+
+.FSS{
+    font-size: 36px;
+    margin-left: 55.0rem;
+
+}
+
+
+.FS1{
+    font-family: 'Saira', sans-serif;
+    font-size: 36px;
+    color: #659a77;
+    margin-left: 60.0rem;
+}
+
+.FC1{
+    font-family: 'Content', cursive;
+    font-size: 36px;
+    color: #fc5812;
+    margin-left: 57.0rem;
+}
+
+
+.FP{
+    font-family: 'Plaster', cursive;
+    font-size: 36px;
+    color: #154EE0; 
+    margin-left: 52.6rem;
+}
+
+
+
+
+
+
+
+.FF{
+    font-size: 36px;
+    margin-left: 9.4rem;
+    
+
+}
+
+.FGS{
+    font-family: 'Rouge Script', cursive;
+    font-size: 36px;
+    color: #000000;
+    margin-left: 9.4rem;
+}
+
+.FP2{
+    font-family: 'Plaster', cursive;
+    font-size: 36px;
+    color: #840D87;
+    margin-left: 9.4rem;
+}
+
+
+.FK{
+    font-family: 'Kranky', cursive;
+    font-size: 36px;
+    color: #EF6C0C;
+    margin-left: 9.4rem;
+}

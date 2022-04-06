@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio</title>
+    <link rel="stylesheet" href="Estilo.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <h1>SyncTur</h1>
+        </div>
+    </header>
+    <main>
+        <div class="Centralizacao">
+            <div class="movimentoTotal">
+                <div class="comecoMovimento">
+                    <section class="comecoPt1">
+                        <label class="textoDoComeco1">Pacotes</label>
+                        <input type="text" class="pacoteProporsao" id="inputPacote" placeholder="Digite nome completo">
+                    </section>
+                    <div class="comecoPt2">
+                        <div class="movimentoDasOpcoes">
+                            <p class="textoDoComeco3">Status do Pacote</p>
+                            <div class="opcoes">
+                                <label class="ativo">Ativo</label>
+                                <input type="checkbox" onclick="desabilitarInativo()" class="checkbox1"
+                                    id="checkBoxAtivo">
+                            </div>
+                            <div class="opcoes2">
+                                <label class="inativo">Inativo</label>
+                                <input type="checkbox" onclick="desabilitarAtivo()" class="checkbox2"
+                                    id="checkBoxInativo">
+                            </div>
+                        </div>
+                        <div class="dataAlinhamento">
+                            <label class="textoDoComeco4">Data da Viagem</label>
+                            <input type="text" class="dataProporsao" placeholder="Data" id="imputDataViagem">
+                        </div>
+                    </div>
+                    <div class="cadastrarModificacoes" id="cadastrarModificacoes">
+                        <button class="botao" id="buttonCadastrar">Cadastrar</button>
+                    </div>
+                </div>
+            </div>
+            <div class="descricaoAlinhamento">
+                <p class="textoDoComeco2">Descrição</p>
+                <textarea class="descriçãoProporsao" placeholder="Write your message here" id="descricao"></textarea>
+            </div>
+        </div>
+        <div id="produtos" class="produtos"> </div>
+        <footer class="rodape">
+            <h3 class="fundo">SyncTur</h3>
+            <div class="linha"></div>
+            <div class="pFooter">
+                <br>
+                <p id="p1"> Company Inc, 8901 Marmora Road, Glasspow, DO4 89GR</p>
+                <br>
+                <p id="p2"> Call us now toll free: (800)2345-6789</p>
+                <br>
+                <p id="p3"> Costumer support suporrt@demolink.org</p>
+                <br>
+                <p id="p4"> Skype: Sample-username</p>
+                <br>
+            </div>
+        </footer>
+    </main>
+</body>
+<script src="./Desafio.js"></script>
+
+</html>

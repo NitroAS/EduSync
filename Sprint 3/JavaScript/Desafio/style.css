@@ -1,0 +1,346 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Squada+One&display=swap%27');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap%27');
+*{
+    margin: 0%;
+    padding: 0%;
+    font-size: 15px;
+    font-family: 'Roboto';
+}
+
+:root{
+    --cor1: #F2890D;
+    --cor2: #1180E6;
+    --cor3: #B0A3A3;
+    --cor4: #000000;
+    --cor5: #ffff;
+    
+}
+
+body{
+   
+    background: var(--cor1);   
+}
+
+main{
+    max-width: 1200px;
+    margin: auto;
+    background: var(--cor1); 
+}
+
+/* Alinhamento do "OJOGO" */
+h1{
+ 
+    font-family: 'Squada One', cursive;
+    width: 170px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 40px;
+    height: 100px;
+    background-color: #1180E6;
+    border-radius: 20px;
+    text-transform: uppercase;
+    position: absolute;
+    top: -60px;
+ 
+
+}
+
+/* aumentando */
+.logo{
+
+    height: 180px;
+}
+
+/* Colocando as fontes e tamanho certinho */
+.nick, h2 , .digite, .botao2, .intervalo, .botao1{
+    font-family: 'Press Start 2P';
+    font-size: 15px;
+    color: #000000;
+}
+
+/* Button design Jogar */
+    .botao2{
+    width: 105px;
+    height: 25px;
+    color: #ffffff;
+    font-size: 15px;
+    line-height: 18px;
+    background: #e77111;
+    border: 2px solid  #000000;
+    border-radius: 20px;
+}
+
+/* Button design Começar */
+.botao1{
+    width: 140px;
+    height: 30px;
+    color: #ffffff;
+    font-size: 15px;
+    line-height: 18px;
+    background: #1180E6;
+    border: 2px solid  #000000;
+    border-radius: 20px;
+    margin-top: 8px;
+}
+
+/* Movimento da parte Branca */
+.movimentoTotal{
+    background-color:  var(--cor5);
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+    width: 879px;
+    height: 450px;
+    margin-top: 45px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+
+/* alinhamento do OJOGO */
+.oJogo
+{
+    width: 120px;
+    justify-content: center;
+    display: flex;
+    
+}
+
+
+
+
+
+
+/* Alinhando a primeira parte */
+.começo{
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -67px;
+}
+
+.meio{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/* Alinha o fim */
+.fim{
+    width: 300px;
+    display: flex;
+    margin-top: -70px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2px;
+}
+
+/* Espaçando a parte do fim */
+   .inputDigite , .maiorNúmero , .tentativas {
+     margin-top: 20px;
+     font-family: 'Roboto Serif', serif;
+     font-size: 15px;
+}
+.inputDigite{
+    margin-top: 8px;
+    
+}
+.maiorNúmero{
+    margin-top: 40px;
+    font-size: 12px;
+}
+
+.tentativas{
+    margin-top: 1px;
+}
+ /* Arrumando as mensagens */
+ .mensagem1{
+     font-size: 16px;
+     text-align: center;
+}
+
+ .mensagem2{
+    font-size: 16px;
+    text-align: center;
+    
+}
+
+
+/* Espaçamento do "Digite seu número' */
+.digite{
+    margin-top: 17px;
+    font-size: 12px;
+  
+}
+
+/*  Espaçemento do  botão Jogar */
+ .botao2{
+     margin-top: 30px;
+}
+
+/* Fazendo a borda do meio */
+.borda{
+    border: 2px solid #B0A3A3;
+    background-color: #B0A3A3;
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    
+}
+
+/* Centralizando a foto */
+.logo{
+   display: flex;
+   
+}
+
+/* dando um espaçamento na primeira parte */
+.nick , .intervalo , .comecar, .inputIntervalo{
+
+    margin-top: 10px;
+
+}
+.intervalo{
+    margin-top: 40px;
+}
+/* espaçamendo o input do Nick */
+.inputNick{
+    margin-top: 10px;
+}
+
+/* arrumando o espaçamento das caixas pra digitar */
+.inputNick , .inputIntervalo , .inputDigite{
+    width: 240px;
+    border-radius: 4px;
+    height: 20px;
+    
+}
+
+/* centralizando as opções do inputIntervalo */
+.opcao{
+  
+   text-align: center;
+}
+
+/* centralizando ele no centro agora para fica certinho
+ */
+.centralizandoMovimentoTotal{
+    display: flex;
+    margin-top: 60px;
+    align-items: center;
+    justify-content: center;
+}
+.botao1:hover {
+    color: var(--cor2);
+    background-color: #e77111;
+}
+
+.botao2:hover {
+    background-color: var(--cor2);
+    color: var(--cor4);
+}
+
+.tentativas{
+    font-family: 'Roboto';
+     font-size: 15px;
+}
+
+.inputIntervalo{
+    height: 25px;
+}
+
+@media screen and (max-width: 428px){
+    .borda{
+        display: none;
+    }
+
+
+    body
+    {
+        max-width: 428px;
+    }
+
+    main 
+    {
+        flex-direction: column;
+        max-width: 428px;
+        max-height: 900px;
+    }
+.movimentoTotal
+    {
+        flex-direction: column;
+        width: 80%;
+        height: 900px;
+        margin-top: 20px;
+    }
+
+.começo{
+
+    margin-top: -200px;
+    display: flex;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.meio{
+    margin-top: 100px;
+    text-align: center;
+}
+
+.digite{
+    font-size: 15px;
+}
+.inputNick , .inputIntervalo{
+    width: 300px;
+    height: 30px;
+}
+.inputDigite{
+    height: 40px;
+    width: 300px;
+    margin-left: 40px;
+    font-size: 25px;
+}
+.oJogo{
+   
+    margin-left: 110px;
+}
+
+.fim{
+    margin-top: 10px;
+}
+
+.botao2{
+    margin-left: 50px;
+    width: 175px;
+    height: 30px;
+}
+
+.bota1{
+    margin-top: 20px;
+    width: 175px;
+    height: 30px;
+}
+.mensagem1 , .mensagem2{
+    font-size: 20px;
+    margin-left: 28px;
+}
+
+.fulano{
+    font-size: 20px;
+
+}
+
+
+.tentativas , .maiorNúmero{
+    margin-left: 30px;
+}
+.inputNick{
+    font-size: 25px;
+}
+.inputIntervalo{
+    font-size: 20px;
+}
+ }
