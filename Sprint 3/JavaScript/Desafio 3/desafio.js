@@ -10,7 +10,7 @@ let numerico
 let nivel = document.getElementById('inputIntervalo')
 let botaoComecar = document.getElementById('botao1')
 const adivinhar = () => {
-
+if(nivel.value != 0){
     if (nivel.value == 1) {
         numerico = Math.random() * 11 
         numerico = numerico.toFixed(0)
@@ -26,6 +26,8 @@ const adivinhar = () => {
         numerico = numerico.toFixed(0)
     }
     console.log(numerico);
+}
+
 }
 botaoComecar.addEventListener('click', adivinhar)
 
