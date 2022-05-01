@@ -4,7 +4,8 @@ import Theater from '../../Assets/img/theater 1.png'
 import { Header } from "../../Components/header/header";
 import { Footer } from "../../Components/footer/footer";
 import { apiDesafio } from "../../Services/api";
-import axios from "axios";
+import { ModalGenero } from "../../Assets/ModalGenero/ModalGenero"
+
 
 
 let propsGenero: any = {
@@ -68,6 +69,22 @@ export const Genero = (): JSX.Element => {
         })
     }
 
+    const [modalGenero, SetModal] = useState('hide')
+
+    const AbrirFecharModal = (estadoAtual:any) =>
+    {
+        if(estadoAtual === 'hide')
+        {
+            SetModal('show')
+        }
+        else
+        {
+            SetModal('hide')
+        }
+
+        window.scroll({top: 
+            90,left: 0,behavior: 'smooth'});
+    }
 
     return (
         <>
@@ -96,7 +113,7 @@ export const Genero = (): JSX.Element => {
 
 
                 {/* CHAMANDO A API DE GENEROS */}
-
+                <ModalGenero info="X" mostrar={modalGenero} funcao={AbrirFecharModal}/>
                 {generos.map((item): any => {
 
                     return (
@@ -109,7 +126,7 @@ export const Genero = (): JSX.Element => {
 
 
                             <div className="divDosBtnCima">
-                                <button className="btnEditarGenero">Editar</button>
+                                <button className="btnEditarGenero" onClick={() => AbrirFecharModal(modalGenero) }>Editar</button>
                                 <button className="btnExcluirGenero" onClick={() => Excluir(item.id)} >Excluir</button>
                             </div>
 

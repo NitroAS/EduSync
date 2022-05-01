@@ -4,6 +4,7 @@ import CinemaFilmes from './../../Assets/img/cinema 1.png'
 import { Header } from "../../Components/header/header";
 import { apiDesafio } from "../../Services/api";
 import { Footer } from "../../Components/footer/footer";
+import { ModalFilmes } from "../../Assets/ModalFilmes/ModalFilmes"
 let propsFilmes: any = {
     description: 'Cadastre os filmes de sua preferência ',
 
@@ -26,6 +27,8 @@ export const Filmes = (): JSX.Element => {
             })
 
     }
+
+    
 
     const listarFilmes = () => {
         let quantidadeElementos: number = generos.length
@@ -73,9 +76,28 @@ export const Filmes = (): JSX.Element => {
     const Salvar = (idGeneros: any) => {
         apiDesafio.post(`Genre/${idGeneros}/TittleMove/`, { Tittle: nomeFilme })
             .then(() => setNomeFilme(''))
-            // .then(() => { window.location.reload() })
+            .then(() => { window.location.reload() })
 
     }
+
+
+    const [modalFilmes, SetModal] = useState('hide')
+
+    const AbrirFecharModal = (estadoAtual:any) =>
+    {
+        if(estadoAtual === 'hide')
+        {
+            SetModal('show')
+        }
+        else
+        {
+            SetModal('hide')
+        }
+
+        window.scroll({top: 
+            590,left: 0,behavior: 'smooth'});
+    }
+
 
     return (
         <>
@@ -131,9 +153,9 @@ export const Filmes = (): JSX.Element => {
 
                             </div>
 
-
+                            <ModalFilmes info="X" mostrar={modalFilmes} funcao={AbrirFecharModal}/>
                             <div className="divDosBtnCima">
-                                <button className="btnEditarFilmes">Editar</button>
+                                <button className="btnEditarFilmes"onClick={() => AbrirFecharModal(modalFilmes)}>Editar</button>
                                 <button className="btnExcluirFilmes" onClick={() => ExcluirFilmes(item.Genero.idGeneros, item.idFilme,)}>Excluir</button>
                             </div>
 

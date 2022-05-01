@@ -1,0 +1,108 @@
+@import '../../Assets/CSS/global.css';
+
+
+.modalGenero {
+    width: 900px;
+    height: 449px;
+    background: #E5E5E5;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 44vh;
+    bottom: vh;
+}
+
+
+.alinhamentoModalGenero {
+    display: flex;
+    justify-content: center;
+}
+
+.btnAlinhamentoModalGenero {
+    width: 900px;
+    height: 40px;
+    background: #9BD2DE;
+    ;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px 30px 20px 20px;
+
+
+
+}
+
+.btnModalGenero {
+    background: transparent;
+    border-radius: 10px;
+    color: #FFFFFF;
+    border: none;
+    font-size: 40px;
+    width: 26px;
+    height: 47px;
+    line-height: 47px;
+    cursor: pointer;
+}
+
+.btnModalGenero:hover {
+    color: #000000
+}
+
+
+
+.cardtxtGenero h1 {
+    font-size: 40px;
+    line-height: 47px;
+    border-radius: 10px;
+    color: #FFFFFF;
+    background: #41B8D2;
+    width: 450px;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.txtsPaiGenero {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.ModalGeneroFooter {
+    width: 900px;
+    height: 40px;
+    background: #F6511D;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px 30px 20px 20px;
+    margin-top: 15vw;
+}
+
+.corDoModalGenero {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    bottom: 0vh;
+    background-color: black;
+    opacity: 0.85;
+}
+
+.AlinhamentoInputModal {
+
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.inputGeneroModal {}
+
+.show {
+    display: flex;
+}
+
+.hide {
+    display: none;
+}

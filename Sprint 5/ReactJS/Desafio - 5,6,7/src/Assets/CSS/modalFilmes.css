@@ -1,0 +1,102 @@
+@import '../../Assets/CSS/global.css';
+
+
+.modal{
+    width: 600px;
+    height: 849px;
+    background: #E5E5E5;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 72vh;
+    bottom: 0vh ;
+}
+  
+
+.alinhamentoModal{
+    display: flex;
+    justify-content: center;
+}
+
+.btnAlinhamentoModal{
+    width: 600px;
+    height: 73px;
+    background: #4776E6;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px 30px 20px 20px;
+  
+    
+
+}
+
+.btnModal{
+    background: transparent;
+    border-radius: 10px;
+    color: #FFFFFF;
+    border: none;
+    font-size: 40px;
+    width: 26px;
+    height: 47px;
+    line-height: 47px;
+    cursor: pointer; 
+}
+.btnModal:hover{
+    color:#000000
+}
+
+
+
+.cardtxt h1{
+    font-size: 40px;
+    line-height: 47px;
+    border-radius: 10px;
+    color: #FFFFFF;
+    background: #4776E6;
+    width: 450px;
+    height: 64px;
+    display: flex;
+    align-items: center;
+}
+
+.txtsPai{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.primeiro-txt , .meio-txt , .final-txt{
+
+    font-size: 28px;
+    line-height: 33px;
+    color: #000000;
+    margin-top:  10px;
+
+}
+.primeiro-txt{
+    width: 447px;
+    height: 66px;
+}
+.meio-txt{
+    margin-top:  60px;
+    width: 450px;
+    height: 299px;
+}
+
+.show{
+    display: flex;
+}
+
+.hide{
+    display: none;
+}
+
+.corDoModal{
+    position:fixed;
+    width: 100%;
+    height: 100%;
+    bottom: 0vh;
+    background-color: black;
+    opacity: 0.85;
+}
