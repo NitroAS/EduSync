@@ -6,37 +6,41 @@ export const ModalFilmes = (props: any) => {
 
     return (
 
-        <div className="alinhamentoModal">
-            <div className={"corDoModal " + props.mostrar}>
+        <div className="alinhamentoModalFilme">
+            <div className={"corDoModalFilme " + props.mostrar}>
 
             </div>
-            <div className={"modal " + props.mostrar}>
+            <div className={"modalFilme " + props.mostrar}>
 
-                <div className="btnAlinhamentoModal">
+                <div className="btnAlinhamentoModalFilme">
 
-                    <button className="btnModal" onClick={props.funcao}>X</button>
-
-                </div>
-
-                <div className="cardtxt">
-
-                    <h1>MASP</h1>
+                    <button className="btnModalFilme" onClick={props.funcao}>X</button>
 
                 </div>
 
-                <div className="txtsPai">
+                <div className="cardtxtFilme">
 
+                    <h1>Edite o Filme</h1>
 
-                    <p className="primeiro-txt">Av. Paulista, 1578 - Bela Vista, São Paulo - SP, 01310-200</p>
+                    <div className="AlinhamentoInputModalFilme">
 
-                    <p className="meio-txt">Um dos maiores símbolos da arquitetura moderna, o Museu de Arte de São Paulo é tido como um dos marcos de São Paulo, conhecido no país inteiro e ao redor do mundo. Essa é só um pouco da história do MASP, que tem muito mais a ser contado. </p>
-
-                    <p className="final-txt">Todas as terças das 10 as 20hs</p>
-
+                        <input
+                            type="text"
+                            placeholder="Filme"
+                            className="inputFilmeModal"
+                        />
+                        <div className="AlinhamentoSalvarModalFilme">
+                            <button className="btnFilmeModalSalvar" >Salvar</button>
+                        </div>
+                    </div>
                 </div>
+
+
+                <footer className="ModalFilmeFooter">
+
+                </footer>
             </div>
         </div>
-
 
     );
 

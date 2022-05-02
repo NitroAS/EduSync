@@ -10,10 +10,26 @@ import { ModalGenero } from "../../Assets/ModalGenero/ModalGenero"
 
 let propsGenero: any = {
     description: 'Cadastre os gêneros dos filmes',
-
+    
 }
 export const Genero = (): JSX.Element => {
-
+    
+    const [modalGenero, SetModal] = useState('hide')
+    
+    const AbrirFecharModal = (estadoAtual:any) =>
+    {
+        if(estadoAtual === 'hide')
+        {
+            SetModal('show')
+        }
+        else
+        {
+            SetModal('hide')
+        }
+    
+        window.scroll({top: 
+            100,left: 0,behavior: 'smooth'});
+    }
     //    CRUDE
 
     // Listar,Cadastrar , Delete , Edita 
@@ -69,22 +85,14 @@ export const Genero = (): JSX.Element => {
         })
     }
 
-    const [modalGenero, SetModal] = useState('hide')
 
-    const AbrirFecharModal = (estadoAtual:any) =>
-    {
-        if(estadoAtual === 'hide')
-        {
-            SetModal('show')
-        }
-        else
-        {
-            SetModal('hide')
-        }
 
-        window.scroll({top: 
-            90,left: 0,behavior: 'smooth'});
-    }
+    // const [nomeGenero, setNomeGenero] = useState('');
+    // const EditarGenero = (id:number) => {
+    //     apiDesafio.put(`Genre/${id}`, { NomeGenre : nomeGenero})
+    //     .then(PegandoGeneros)
+    //     .then(() => setNomeGenero(''))
+    // }
 
     return (
         <>

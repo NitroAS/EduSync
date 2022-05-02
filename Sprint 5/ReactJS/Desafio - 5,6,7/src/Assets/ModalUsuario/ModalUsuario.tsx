@@ -1,42 +1,70 @@
 import React from "react";
-import '../../Assets/CSS/modalGenero.css';
+import '../../Assets/CSS/modalUsuario.css';
 
 
 export const ModalUsuario = (props: any) => {
 
     return (
 
-        <div className="alinhamentoModal">
-            <div className={"corDoModal " + props.mostrar}>
+        <div className="alinhamentoModalUsuario">
+            <div className={"corDoModalUsuario " + props.mostrar}>
 
             </div>
-            <div className={"modal " + props.mostrar}>
+            <div className={"modalUsuario " + props.mostrar}>
 
-                <div className="btnAlinhamentoModal">
+                <div className="btnAlinhamentoModalUsuario">
 
-                    <button className="btnModal" onClick={props.funcao}>X</button>
-
-                </div>
-
-                <div className="cardtxt">
-
-                    <h1>MASP</h1>
+                    <button className="btnModalUsuario" onClick={props.funcao}>X</button>
 
                 </div>
 
-                <div className="txtsPai">
+                <div className="cardtxtUsuario">
 
+                    <h1>Edite o Cadastro</h1>
 
-                    <p className="primeiro-txt">Av. Paulista, 1578 - Bela Vista, São Paulo - SP, 01310-200</p>
+                    <div className="AlinhamentoInputModalUsuario">
 
-                    <p className="meio-txt">Um dos maiores símbolos da arquitetura moderna, o Museu de Arte de São Paulo é tido como um dos marcos de São Paulo, conhecido no país inteiro e ao redor do mundo. Essa é só um pouco da história do MASP, que tem muito mais a ser contado. </p>
+                        <div className="inputUsuario1">
 
-                    <p className="final-txt">Todas as terças das 10 as 20hs</p>
+                            <input
+                                type="text"
+                                placeholder="Nome"
+                                className="inputUsuarioModal1"
+                            />
 
+                        </div>
+                        <div className="inputUsuario2">
+
+                            <input
+                                type="text"
+                                placeholder="Email"
+                                className="inputUsuarioModal2"
+                            />
+
+                        </div>
+                        <div className="inputUsuario3">
+
+                            <input
+                                type="text"
+                                placeholder="Telefone"
+                                className="inputUsuarioModal3"
+                            />
+
+                        </div>
+                        
+                    
+                        <div className="AlinhamentoSalvarModal">
+                            <button className="btnUsuarioModalSalvar" >Salvar</button>
+                        </div>
+                    </div>
                 </div>
+
+
+                <footer className="ModalUsuarioFooter">
+
+                </footer>
             </div>
         </div>
-
 
     );
 

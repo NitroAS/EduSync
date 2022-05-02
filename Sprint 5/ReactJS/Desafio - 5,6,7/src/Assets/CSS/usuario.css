@@ -63,7 +63,9 @@
 }
 
 .btnCadastrar:hover{
-    color: var(--cor3);
+    color: #000000;
+    background-color: #9BD2DE;
+    border: 2px solid #9BD2DE;
 }
 
 .alinhamentoDaMainUsuario{
@@ -108,8 +110,15 @@
 
 }
 .btnEditarUsuario:hover , .btnExcluirUsuario:hover{
-    color: var(--cor3);
+    color: #F6511D;
+    border: 2px solid #F6511D;
+    background-color: #fff;
 } 
+
+.btnExcluirUsuario:hover{
+    color: #41B8D2;
+    border: 2px solid #41B8D2;
+}
 .espacamentoBotao{
     padding: 20px 0px 10px 0px;
 }

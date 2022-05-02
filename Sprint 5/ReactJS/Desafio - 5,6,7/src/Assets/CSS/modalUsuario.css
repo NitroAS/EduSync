@@ -1,38 +1,41 @@
 @import '../../Assets/CSS/global.css';
 
 
-.modal{
-    width: 600px;
-    height: 849px;
-    background: #E5E5E5;
+.modalUsuario {
+    width: 900px;
+    height: 649px;
+    background: #fff;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     position: absolute;
-    top: 72vh;
-    bottom: 0vh ;
+    top: 29.99vh;
+    bottom: vh;
+    left: 20vw;
 }
-  
 
-.alinhamentoModal{
+
+.alinhamentoModalUsuario {
     display: flex;
     justify-content: center;
+    background-color: white;
 }
 
-.btnAlinhamentoModal{
-    width: 600px;
-    height: 73px;
-    background: #4776E6;
+.btnAlinhamentoModalUsuario  {
+    width: 900px;
+    height: 40px;
+    background: #9BD2DE;
+    
     display: flex;
     justify-content: flex-end;
     align-items: center;
     padding: 20px 30px 20px 20px;
-  
-    
+
+
 
 }
 
-.btnModal{
+.btnModalUsuario {
     background: transparent;
     border-radius: 10px;
     color: #FFFFFF;
@@ -41,62 +44,102 @@
     width: 26px;
     height: 47px;
     line-height: 47px;
-    cursor: pointer; 
-}
-.btnModal:hover{
-    color:#000000
+    cursor: pointer;
 }
 
+.btnModalUsuario:hover {
+    color: #000000
+}
 
 
-.cardtxt h1{
+.cardtxtUsuario{
+    margin-bottom: 4.19vw;
+}
+.cardtxtUsuario h1 {
     font-size: 40px;
     line-height: 47px;
     border-radius: 10px;
-    color: #FFFFFF;
-    background: #4776E6;
+    color: #000;
+    
     width: 450px;
     height: 64px;
     display: flex;
     align-items: center;
+    justify-content: center;
+    margin-top: 4vw;
 }
 
-.txtsPai{
+.txtsPaiUsuario {
     display: flex;
     flex-wrap: wrap;
 }
 
-.primeiro-txt , .meio-txt , .final-txt{
 
-    font-size: 28px;
-    line-height: 33px;
-    color: #000000;
-    margin-top:  10px;
-
-}
-.primeiro-txt{
-    width: 447px;
-    height: 66px;
-}
-.meio-txt{
-    margin-top:  60px;
-    width: 450px;
-    height: 299px;
-}
-
-.show{
+.ModalUsuarioFooter {
+    width: 900px;
+    height: 40px;
+    background: #F6511D;
     display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px 30px 20px 20px;
+    margin-top: -14px;
 }
 
-.hide{
-    display: none;
-}
-
-.corDoModal{
-    position:fixed;
+.corDoModalUsuario {
+    position: fixed;
     width: 100%;
     height: 100%;
     bottom: 0vh;
-    background-color: black;
-    opacity: 0.85;
+  
 }
+
+.AlinhamentoInputModal {
+
+    display: flex;
+    margin-top: 42px;
+    
+}
+
+.inputUsuarioModal1,.inputUsuarioModal2 , .inputUsuarioModal3  {
+    
+    height: 49px;
+    font-size: 20px;
+    padding: 5px 0px 0px 24px;
+    margin-top: 20px;
+}
+
+.AlinhamentoSalvarModal{
+    margin-left: 20px;
+}
+
+.btnUsuarioModalSalvar{
+    width: 120px;
+    height: 58px;
+    background-color: #F6511D;
+    font-size: 20px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 40px;
+}
+
+.btnUsuarioModalSalvar:hover{
+    color: #000000;
+    background-color: #9BD2DE;
+}
+
+.show {
+    display: flex;
+}
+
+.hide {
+    display: none;
+}
+
+.AlinhamentoInputModalUsuario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+

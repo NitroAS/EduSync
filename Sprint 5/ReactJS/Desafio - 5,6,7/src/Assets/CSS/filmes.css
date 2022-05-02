@@ -157,10 +157,22 @@
     cursor: pointer;
     margin-top: 25px;
 }
-.btnExcluirFilmes:hover , .btnEditarFilmes:hover , .btnFilmesSalvar:hover{
-    color: var(--cor3);
+.btnExcluirFilmes:hover , .btnEditarFilmes:hover {
+    color: #F6511D;
+    border: 2px solid #F6511D;
+    background-color: #fff;
 }
 
+.btnExcluirFilmes:hover{
+    color: #41B8D2;
+    border: 2px solid #41B8D2;
+}
+.btnSalvarFilmes:hover{
+    color: #000000;
+    background-color: #9BD2DE;
+    border: 2px solid #9BD2DE;
+
+}
 .btnExcluirFilmes {
     background: #41B8D2;
     color: #000000;

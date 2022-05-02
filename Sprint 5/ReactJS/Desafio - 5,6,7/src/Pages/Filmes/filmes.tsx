@@ -95,7 +95,7 @@ export const Filmes = (): JSX.Element => {
         }
 
         window.scroll({top: 
-            590,left: 0,behavior: 'smooth'});
+            100,left: 0,behavior: 'smooth'});
     }
 
 

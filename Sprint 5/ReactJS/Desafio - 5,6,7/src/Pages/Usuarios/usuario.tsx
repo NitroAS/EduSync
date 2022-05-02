@@ -25,7 +25,7 @@ export const Usuarios = (): JSX.Element => {
 
         window.scroll({
             top:
-                590, left: 0, behavior: 'smooth'
+            190, left: 0, behavior: 'smooth'
         });
     }
 

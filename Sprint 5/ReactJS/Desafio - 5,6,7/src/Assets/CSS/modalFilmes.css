@@ -1,38 +1,40 @@
 @import '../../Assets/CSS/global.css';
 
 
-.modal{
-    width: 600px;
-    height: 849px;
-    background: #E5E5E5;
+.modalFilme {
+    width: 900px;
+    height: 449px;
+    background: #fff;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     position: absolute;
-    top: 72vh;
-    bottom: 0vh ;
+    top: 30.70vh;
+    bottom: vh;
+    left: 20vw;
 }
-  
 
-.alinhamentoModal{
+
+.alinhamentoModalv {
     display: flex;
     justify-content: center;
+    background-color: white;
 }
 
-.btnAlinhamentoModal{
-    width: 600px;
-    height: 73px;
-    background: #4776E6;
+.btnAlinhamentoModalFilme {
+    width: 900px;
+    height: 40px;
+    background: #9BD2DE;
     display: flex;
     justify-content: flex-end;
     align-items: center;
     padding: 20px 30px 20px 20px;
-  
-    
+
+
 
 }
 
-.btnModal{
+.btnModalFilme {
     background: transparent;
     border-radius: 10px;
     color: #FFFFFF;
@@ -41,62 +43,94 @@
     width: 26px;
     height: 47px;
     line-height: 47px;
-    cursor: pointer; 
-}
-.btnModal:hover{
-    color:#000000
+    cursor: pointer;
 }
 
+.btnModalFilme:hover {
+    color: #000000
+}
 
 
-.cardtxt h1{
+.cardtxtFilme{
+    margin-bottom: 4.19vw;
+}
+.cardtxtFilme h1 {
     font-size: 40px;
     line-height: 47px;
     border-radius: 10px;
-    color: #FFFFFF;
-    background: #4776E6;
+    color: #000;
     width: 450px;
     height: 64px;
     display: flex;
     align-items: center;
+    justify-content: center;
+    margin-top: 4vw;
 }
 
-.txtsPai{
+.txtsPaiFilme {
     display: flex;
     flex-wrap: wrap;
 }
 
-.primeiro-txt , .meio-txt , .final-txt{
 
-    font-size: 28px;
-    line-height: 33px;
-    color: #000000;
-    margin-top:  10px;
-
-}
-.primeiro-txt{
-    width: 447px;
-    height: 66px;
-}
-.meio-txt{
-    margin-top:  60px;
-    width: 450px;
-    height: 299px;
-}
-
-.show{
+.ModalFilmeFooter {
+    width: 900px;
+    height: 40px;
+    background: #F6511D;
     display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px 30px 20px 20px;
+    margin-top: 3.38vw;
 }
 
-.hide{
-    display: none;
-}
-
-.corDoModal{
-    position:fixed;
+.corDoModalFilme {
+    position: fixed;
     width: 100%;
     height: 100%;
     bottom: 0vh;
-    background-color: black;
-    opacity: 0.85;
+   
 }
+
+.AlinhamentoInputModalFilme {
+
+    display: flex;
+    margin-top: 42px;
+    
+}
+
+.inputFilmeModal {
+    
+    height: 49px;
+    font-size: 20px;
+    padding: 5px 0px 0px 24px;
+}
+
+.AlinhamentoSalvarModalFilme{
+    margin-left: 20px;
+}
+
+.btnFilmeModalSalvar{
+    width: 120px;
+    height: 58px;
+    background-color: #F6511D;
+    font-size: 20px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.btnFilmeModalSalvar:hover{
+    color: #000000;
+    background-color: #9BD2DE;
+}
+
+.show {
+    display: flex;
+}
+
+.hide {
+    display: none;
+}
+
+
