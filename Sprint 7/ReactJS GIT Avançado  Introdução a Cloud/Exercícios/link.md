@@ -1,0 +1,1 @@
+link do site: http://pointtour.azurewebsites.net
