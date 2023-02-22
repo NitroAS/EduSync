@@ -1,0 +1,210 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap%27');
+
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Roboto', sans-serif;
+}
+
+:root{
+    --cor1: #660027;
+    --cor2: #7D7777;
+}
+body{
+    background-color: white;
+    max-width: 1440px;
+    height: 1075px;
+}
+
+
+header nav img{
+    max-width: 155px;
+    max-height: 70px;
+    padding: 40px 20px;
+    margin-left: 50px;
+    
+}
+
+
+
+/* para centralizar o header */
+
+nav{
+    display: flex;
+    justify-content:space-between;
+    max-width: 1200px;
+}
+
+
+/* para deixar na ponta e fica do lado  */
+
+nav ul{
+    display: flex;
+   
+}
+
+nav a{
+    text-decoration: none;
+    color: #000000;
+}
+
+/* para fica do lado  */
+
+nav ul li{
+    list-style: none;
+    padding: 20px 40px;
+    margin-top: 40px;
+    margin-right: -35px;
+    margin-left: 30px;
+}
+
+main{
+    max-width: 1200px;
+}
+
+.nome1 , .email1 , .telefone1{
+    width: 400px;
+    height: 42px;
+    border: 1px solid #660027;
+    box-sizing: border-box;
+    border-radius: 4px; 
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.mensagem1{
+    width: 400px;
+    height: 125px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #660027;
+    box-sizing: border-box;
+    border-radius: 4px; 
+    
+}
+
+
+
+.borda2{
+    border: 1px solid #660027;
+    box-sizing: border-box;
+    border-radius: 5px;
+    height: 700px;
+    width: 780px;
+    margin-left: 70px;
+    color: #7B7676;
+}
+
+h1{
+    color: var(--cor1);
+    font-size: 36px;
+    line-height: 42px;  
+}
+
+.enviar{
+    background: #660027;
+    border: 2px solid #660027;
+    box-sizing: border-box;
+    border-radius: 4px;
+    margin-top: 30px;
+    width: 128px;
+    height: 42px;
+    color: white;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 700px;
+    margin-left: 20px;
+    background: #660027;
+    color: white;
+}
+
+.mens{
+    margin-top: 10px;
+    top: 20px;
+    font-size: 20px;
+    line-height: 20px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.pai{
+    display: flex;
+    margin-top: 50px;
+}
+
+
+.movimento{
+    margin-left: 180px;
+    margin-top: 40px;
+}
+
+
+.nome , .email , .telefone , .mensagem{
+    font-size: 24px;
+    line-height: 28px;
+    margin-bottom: 20px;
+}
+
+h1{
+    margin-left: 300px;
+    margin-top: 80px;
+    top: 10px
+    
+}
+
+.enviar{
+    width: 128px;
+    height: 42px;
+    border: 2px solid #660027;
+    background: #660027;
+    border-radius: 4px;
+    line-height: 28px;
+    cursor: pointer;
+    color: white;
+    font-size: 24px
+}
+
+.enviar:hover{
+    background-color: #660027;
+    color: grey;
+}
+
+
+.mens1{
+   margin-top: 300px;
+   align-items: center;
+   margin-right: 20px;
+   font-size: 20px;
+   line-height: 28px;
+   display: flex;
+   
+
+}
+
+
+.mens{
+    font-size: 20px;
+    line-height: 28px;
+
+}
+.mens{
+    margin-left: 30px;
+}
+
+.filho-footer2{
+    margin-left: 60px;
+    display: flex;
+}
+
+
+footer{
+    display: none;
+}
+

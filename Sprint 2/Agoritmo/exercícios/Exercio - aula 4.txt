@@ -1,0 +1,88 @@
+1-
+A) ESCREVA X
+   X = 15
+
+   ESCREVA X, Y
+   X = 15
+   Y = 20
+
+B) ESCREVA C
+   C = 45
+
+   ESCREVA A, B, C
+   A = 15
+   B = 10
+   C = 5
+
+C) ESCREVA X,Y,Z
+   X = 10
+   Y = 10
+   Z = 10
+
+D) ESCREVA A
+   B = 12
+   A = 13
+   B = 14
+
+   ESCREVA A,B
+   A = 10
+   B = 11
+
+E) ESCREVA X,Y,Z
+   X = 20
+   Y = 10
+   Z = 24
+
+F) ESCREVA C
+   C = 0
+   ESCREVA A,B,C
+   A = 5
+   B = 5
+   C = 0
+
+2 - F
+A - F
+B - V
+C - F
+D - V
+
+
+
+3 -
+
+A-
+1) - V
+2 - F
+3 - F
+4 - V
+5 -  F
+
+B - 
+
+1 - F
+2 - F
+3 - F
+4 - V
+
+
+C - 
+
+1 - V
+2 - F
+3 - F
+4 - V
+
+4 - 
+
+Respota:
+
+A - V
+B - F
+C - F
+
+
+
+
+
+
+

@@ -1,0 +1,49 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.dropdown ul li a {
+
+text-decoration: none;
+    display: block;
+    background-color: black;
+    color: white;
+    width: 200px;
+    padding: 20px;
+}
+
+.dropdown ul li a:hover{
+ background-color: blue;
+}
+
+.dropdown ul li{
+    list-style: none;
+}
+
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+
+
+.dropdown_child{
+    display: none;
+    background-color: black;
+    min-width: 200px;
+}
+
+.dropdown_child a{
+    color: blue;
+    padding: 20px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown_child a:hover{
+     color: white;
+     background-color: blue;
+
+}
+.dropdown:hover .dropdown_child{
+    display: block
+}
